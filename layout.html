@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Nested layouts</title>
+        <style>
+            p{
+                margin-top: 0;
+                margin-bottom: 0;
+            }
+            .main-img{
+                display: inline-block;
+                margin-top: 10px;
+                margin-left: 10px;
+                width: 300px;
+            }
+            .video-img{
+                width: 100%;
+            }
+            .sub{
+                margin-top: 15px;
+                display: inline-block;
+                width: 300px;
+                vertical-align: top;
+                margin-left: 15px;
+            }
+            .video-title{
+                width: 300px;
+                font-weight: bold;
+                font-size: 20px;
+                margin-bottom: 15px;
+            }
+            .video-name,.video-status{
+                color: rgb(69, 68, 68);
+            }
+            .divf{
+                margin-top: 20px;
+                margin-left: 10px;
+                box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.5);
+                border: none;
+                display: inline-block;
+                margin-bottom: 20px;
+            }
+            .fimg{
+                width: 250px;
+                height: 250px;
+                object-fit: cover;
+            }
+            .fname{
+                font-weight: bold;
+                padding-left: 15px;
+                font-size: 18px;
+                margin-top: 0;
+                margin-bottom: 0;
+            }
+            .fsub{
+                margin-top: 8px;
+                color: gray;
+                margin-bottom: 5px;
+            }
+            .fbtn{
+                margin-left: 15px;
+                margin-top: 0;
+                background-color: rgb(62, 108, 232);
+                color: white;
+                border: none;
+                border-radius: 3px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 20px;
+                padding-right: 20px;
+                margin-bottom: 10px;
+                display: block;
+            }
+            .profile-pic{
+                height: 40px;
+                width: 40px;
+                border-radius: 20px;
+                object-fit: cover;
+            }
+            .pdiv{
+                display: inline-block;
+                width: 40px;
+                margin-left: 15px;
+                margin-right: 0;
+            }
+            .sdiv{
+                display: inline-block;
+                width: 150px;
+                margin-left: 0;
+                vertical-align: top;
+                margin-bottom: 10px;
+                padding-left: 0px;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <div class="main-img">
+                <img class="video-img" src="1337463.png">
+            </div>
+            <div class="sub">
+                <p class="video-title">How to compete against CS degrees (as a  self-taught dev)</p>
+                <p class="video-name">SuperSimpleDev</p>
+                <p class="video-status">1.5K views &middot 4 months ago</p>
+            </div>
+        </div>
+        <div>
+            <div class="main-img">
+                <img class="video-img" src="cat.jpg">
+            </div>
+            <div class="sub">
+                <p class="video-title">Which programming language to learn first 2022 (with charts)</p>
+                <p class="video-name">SuperSimpleDev</p>
+                <p class="video-status">1.5K views &middot 4 months ago</p>
+            </div>
+        </div>
+        <div>
+            <div class="main-img">
+                <img class="video-img" src="1337463.png">
+            </div>
+            <div class="sub">
+                <p class="video-title">How to compete against CS degrees (as a  self-taught dev)</p>
+                <p class="video-name">SuperSimpleDev</p>
+                <p class="video-status">1.5K views &middot 4 months ago</p>
+            </div>
+        </div>
+        <div class="divf">
+            <div>
+                <img src="cat.jpg" class="fimg">
+            </div>
+            <div>
+                <p class="fname">Oliver</p>
+                <div class="pdiv">
+                    <img src="cat.jpg" class="profile-pic">
+                </div>
+                <div class="sdiv">
+                    <p class="fsub">2 mutual friends</p>
+                </div>
+                <button class="fbtn">Add Friend</button>
+            </div>
+        </div>
+        <div class="divf">
+            <div>
+                <img src="cat.jpg" class="fimg">
+            </div>
+            <div>
+                <p class="fname">Oliver</p>
+                <div class="pdiv">
+                    <img src="cat.jpg" class="profile-pic">
+                </div>
+                <div class="sdiv">
+                    <p class="fsub">2 mutual friends</p>
+                </div>
+                <button class="fbtn">Add Friend</button>
+            </div>
+        </div>
+        <div class="divf">
+            <div>
+                <img src="cat.jpg" class="fimg">
+            </div>
+            <div>
+                <p class="fname">Oliver</p>
+                <div class="pdiv">
+                    <img src="cat.jpg" class="profile-pic">
+                </div>
+                <div class="sdiv">
+                    <p class="fsub">2 mutual friends</p>
+                </div>
+                <button class="fbtn">Add Friend</button>
+            </div>
+        </div>
+    </body>
+</html>
