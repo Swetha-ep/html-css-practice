@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Grids
+        </title>
+        <style>
+            .fgrid{
+                display: grid;
+                grid-template-columns: 200px 75px;
+            }
+            .sgrid{
+                margin-top: 10px;
+                display: grid;
+                grid-template-columns: 50px 1fr 75px;
+                margin-bottom: 10px;
+            }
+            .tgrid{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                column-gap: 20px;
+                row-gap: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="fgrid">
+            <div style="background-color:  lightblue;">
+                200px
+            </div>
+            <div style="background-color: lightpink;">
+                75px
+            </div>
+        </div>
+        <div class="sgrid">
+            <div style="background-color:  lightblue;">
+                200px
+            </div>
+            <div style="background-color: lightpink;">
+                75px
+            </div>
+            <div style="background-color: lightblue;">
+                75px
+            </div>
+        </div>
+        <div class="tgrid">
+            <div style="background-color: lightpink;">
+                1fr
+            </div>
+            <div style="background-color: lightpink;">
+                1fr
+            </div>
+            <div style="background-color: lightpink;">
+                1fr
+            </div>
+            <div style="background-color: lightpink;">
+                1fr
+            </div>
+            <div style="background-color: lightpink;">
+                1fr
+            </div>
+            <div style="background-color: lightpink;">
+                1fr
+            </div>
+            <div style="background-color: lightpink;">
+                1fr
+            </div>
+            <div style="background-color: lightpink;">
+                1fr
+            </div>
+        </div>
+    </body>
+</html>
