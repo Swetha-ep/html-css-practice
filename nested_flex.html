@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Nested flexbox</title>
+        <style>
+            .fflex{
+                display: flex;
+                height: 70px;
+                margin-top: 10px;
+                margin-left: 20px;
+            }
+            .sflex{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="fflex">
+            <div class="sflex" style="width: 100px; background-color: lightpink;">
+                <p style="background-color: black; color: white;">item1</p>
+            </div>
+            <div style="width: 200px; background-color: lightblue;">
+
+            </div>
+        </div>
+    </body>
+</html>
