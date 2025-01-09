@@ -25,6 +25,32 @@
                 flex-direction: row;
                 margin-left: 20px;
                 margin-right: 20px;
+                margin-bottom: 20px;
+            }
+            .outer{
+                
+                border-color: gray;
+                border-width: 1px;
+                border: solid;
+                width: 300px;
+                margin-left: 20px;
+            }
+            .fbtn{
+                background-color: rgb(72, 140, 234);
+                color: white;
+                border: none;
+                border-radius: 15px;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                padding-left: 10px;
+                padding-right: 10px;
+                font-size: 15px;
+            }
+            .ftflex{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                height: 40px;
             }
         </style>
     </head>
@@ -69,6 +95,32 @@
             <div style="background-color: lightpink; width: 50px;">
                 item2
             </div> 
+        </div>
+        <div class="outer">
+            <div class="ftflex">
+                <div style="margin-left: 10px;">
+                    <p>Home</p>
+                </div>
+                <div style="margin-right: 10px;">
+                    <button class="fbtn">14</button>
+                </div>
+            </div>
+            <div class="ftflex">
+                <div style="margin-left: 10px;">
+                    <p>Notifications</p>
+                </div>
+                <div style="margin-right: 10px;">
+                    <button class="fbtn">3</button>
+                </div>
+            </div>
+            <div class="ftflex">
+                <div style="margin-left: 10px;">
+                    <p>Messages</p>
+                </div>
+                <div style="margin-right: 10px;">
+                    <button class="fbtn">5</button>
+                </div>
+            </div>
         </div>
     </body>
 </html>
