@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Flexbox
+        </title>
+        <style>
+            .fflex{
+                display: flex;
+                margin-bottom: 20px;
+            }
+            .sflex{
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 20px;
+            }
+            .tflex{
+                display: flex;
+                border: solid;
+                border-width: 2px;
+                border-color: gray;
+                height: 50px;
+                align-items: center;
+                justify-content: space-between;
+                flex-direction: row;
+                margin-left: 20px;
+                margin-right: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="fflex">
+            <div style="background-color: lightblue; width: 200px;">
+                200px
+            </div>
+            <div style="background-color: lightpink; width: 75px;">
+                75px
+            </div>
+        </div>
+        <div class="fflex">
+            <div style="background-color: lightblue; width: 50px;">
+                50px
+            </div>
+            <div style="background-color: lightpink; flex:1;">
+                flex:1
+            </div>
+            <div style="background-color: lightblue; width: 50px;">
+                50px
+            </div>
+        </div>
+        <div class="sflex">
+            <div style="background-color: lightpink; width: 50px;">
+                50px
+            </div>
+            <div style="background-color: lightpink; width: 50px;">
+                50px
+            </div>
+            <div style="background-color: lightpink; width:50px;">
+                50px
+            </div>
+            <div style="background-color: lightpink; width:50px;">
+                50px
+            </div>
+        </div>
+        <div class="tflex">
+            <div style="background-color: lightpink; width: 50px;">
+                item1
+            </div>
+            <div style="background-color: lightpink; width: 50px;">
+                item2
+            </div> 
+        </div>
+    </body>
+</html>
