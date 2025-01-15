@@ -5,7 +5,7 @@
             Position relative
         </title>
         <style>
-            .body{
+            body{
                 height: 3000px;
             }
             .first{
@@ -17,14 +17,36 @@
                 padding-top: 5px;
                 padding-bottom: 5px;
                 position: absolute;
+                top: -10px;
+                left: -10px;
+            }
+            .second{
+                position: fixed;
+                bottom: 10px;
+                right: 10px;
+                background-color: gray;
+                width: 320px;
+                height: 180px;
+            }
+            .video{
+                position: absolute;
+                background-color: black;
+                color: white;
                 right: 5px;
-                top: 5px;
+                bottom: 5px;
+                padding-right: 3px;
+                padding-left: 3px;
             }
         </style>
     </head>
     <body>
-        <div class="first">
-            X
+        <div class="second">
+            <div class="first">
+                X
+            </div>
+            <div class="video">
+                0:29
+            </div>
         </div>
     </body>
 </html>
