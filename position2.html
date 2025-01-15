@@ -37,6 +37,39 @@
                 padding-right: 3px;
                 padding-left: 3px;
             }
+            .image{
+                margin-left: 20px;
+                margin-top: 20px;
+                position: relative;
+                display: inline-block;
+            }
+            .discount{
+                position: absolute;
+                top: 10px;
+                right: 0;
+                background-color: black;
+                color: white;
+                padding-right: 5px;
+                padding-bottom: 5px;
+                padding-left: 5px;
+            }
+            .image-bottom{
+                position: absolute;
+                background-color: rgba(209, 201, 201, 0.7);
+                bottom: 5px;
+                left: 0px;
+                right: 0px;
+                height: 100px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .cart{
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 15px;
+                padding-right: 15px;
+            }
         </style>
     </head>
     <body>
@@ -46,6 +79,13 @@
             </div>
             <div class="video">
                 0:29
+            </div>
+        </div>
+        <div class="image">
+            <img src="cat.jpg" style="width: 250px; height: 300px; object-fit: cover;">
+            <div class="discount">20% OFF</div>
+            <div class="image-bottom">
+                <button class="cart">Add to Cart</button>
             </div>
         </div>
     </body>
